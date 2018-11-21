@@ -8,7 +8,7 @@ using Foundation;
 using System;
 using System.CodeDom.Compiler;
 
-namespace PersistentBottomSheet.Touch.Views
+namespace XBottomSheet.Touch.Views
 {
     [Register ("SampleViewController")]
     partial class SampleViewController

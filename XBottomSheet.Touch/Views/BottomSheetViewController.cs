@@ -2,7 +2,7 @@
 using CoreGraphics;
 using UIKit;
 
-namespace PersistentBottomSheet.Touch.Views
+namespace XBottomSheet.Touch.Views
 {
     public partial class BottomSheetViewController : UIViewController
     {

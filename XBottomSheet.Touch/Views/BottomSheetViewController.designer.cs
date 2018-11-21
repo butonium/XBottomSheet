@@ -9,7 +9,7 @@ using System;
 using System.CodeDom.Compiler;
 using UIKit;
 
-namespace PersistentBottomSheet.Touch.Views
+namespace XBottomSheet.Touch.Views
 {
     [Register ("BottomSheetViewController")]
     partial class BottomSheetViewController

@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleName</key>
-	<string>PersistentBottomSheet.Touch</string>
+	<string>XBottomSheet.Touch</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.pbs.touch</string>
+	<string>com.xbs.touch</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>

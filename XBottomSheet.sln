@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistentBottomSheet.Core"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistentBottomSheet.Droid", "PersistentBottomSheet.Droid\PersistentBottomSheet.Droid.csproj", "{399F614B-63AB-4BF8-9192-A7F9B92EFB33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistentBottomSheet.Touch", "PersistentBottomSheet.Touch\PersistentBottomSheet.Touch.csproj", "{138DBB7C-62F4-4455-8E05-3D6DE059AD5F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XBottomSheet.Touch", "XBottomSheet.Touch\XBottomSheet.Touch.csproj", "{138DBB7C-62F4-4455-8E05-3D6DE059AD5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,6 +1,6 @@
 ﻿using UIKit;
 
-namespace PersistentBottomSheet.Touch
+namespace XBottomSheet.Touch
 {
     public class Application
     {

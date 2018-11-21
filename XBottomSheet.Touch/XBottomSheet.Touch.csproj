@@ -6,7 +6,7 @@
     <ProjectGuid>{138DBB7C-62F4-4455-8E05-3D6DE059AD5F}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PersistentBottomSheet.Touch</RootNamespace>
+    <RootNamespace>XBottomSheet.Touch</RootNamespace>
     <AssemblyName>PersistentBottomSheet.Touch</AssemblyName>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
   </PropertyGroup>
@@ -44,6 +44,7 @@
     <MtouchArch>ARM64</MtouchArch>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
     <MtouchVerbosity></MtouchVerbosity>
+    <AssemblyName>XBottomSheet.Touch</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>pdbonly</DebugType>
@@ -79,6 +80,7 @@
     <MtouchArch>ARM64</MtouchArch>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
     <MtouchVerbosity></MtouchVerbosity>
+    <AssemblyName>XBottomSheet.Touch</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -114,12 +116,6 @@
     <Compile Include="Views\BottomSheetViewController.designer.cs">
       <DependentUpon>BottomSheetViewController.cs</DependentUpon>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\PersistentBottomSheet.Core\PersistentBottomSheet.Core.csproj">
-      <Project>{17243071-BDA8-4F0A-9B10-11BCAF8DEEA7}</Project>
-      <Name>PersistentBottomSheet.Core</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
